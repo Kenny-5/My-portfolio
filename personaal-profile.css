@@ -30,6 +30,10 @@ medium gray -- #cccccc
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     background-color:#f6f6f6ef ;
     color: #0c0c0cf1;
@@ -43,19 +47,19 @@ body{
 h1{
     color:#0f423d;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 4.8rem;
     letter-spacing: -2px;
 }
 
 h2{
     font-weight: 600;
-    font-size: 38px;
+    font-size: 3.8rem;
     letter-spacing: -2px;
 }
 
 h3{
     font-weight: 600;
-    font-size: 32px;
+    font-size: 3.2rem;
     letter-spacing: -2px;
 }
 
@@ -64,12 +68,12 @@ img{
 }
 
 p{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
 a{
-    
+    font-size: 2rem;
     text-decoration: none;
     
 }
@@ -82,20 +86,20 @@ ul{
 /* >>>> NAVBAR <<<< */
 
 .nav-bar{
-    margin-bottom: 150px;
+    margin-bottom: 15rem;
 }
 
 .highlight{
     background-color: #FF9F8A ;
-    padding: 6px 12px;
+    padding: 0.6rem 1.2rem;
     color: #531318;
     border-radius: 10px;
     
 }
 
 .header-span{
-    font-size: 62px;
-    margin-bottom: 59px;
+    font-size: 6.2rem;
+    margin-bottom: 5.9rem;
 }
 .header{
     text-align: center;
@@ -103,7 +107,14 @@ ul{
 
 .card{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     border-radius: 12px;
 }
 /* LAYOUT CONTAINERSs */
+
+.main-page{
+
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 90%;
+}
