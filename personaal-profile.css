@@ -24,6 +24,41 @@ medium gray -- #cccccc
 */
 
 /*  >>>> CSS RESET <<<< */
+
+:root{
+/* colors */
+    --primary-base : #31CCBF;
+    --primary-tint: #E5FBFB;
+    --primary-shade: #279399;
+    --primary-deep-shade: #0F423D;
+
+    --secondary-base: #12CC89;
+    --secondary-tint: #D4F0E4;
+    --secondary-shade: #0E9368;
+
+    --tertiary-base:  #cc313e;
+    --tertiary-shade: #531318;
+    --tertiary-tint:  #fddde0;
+
+    --gray-light:  #f5f5f5;
+    --gray-medium: #cccccc;
+
+    --bg-body: #f6f6f6ef;
+    --text-base: #0c0c0cf1;
+
+    /* typography */
+    --h1: 4.8rem;
+    --h2: 3.8rem;
+    --h3: 3.2rem;
+
+    /* Body text */
+    --body: 1.8rem;
+    --link: 2.0rem;
+
+    /* Display text */
+    --display: 6.2rem;
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -35,8 +70,8 @@ html{
 }
 
 body{
-    background-color:#f6f6f6ef ;
-    color: #0c0c0cf1;
+    background-color:var(--bg-body) ;
+    color: var(--text-base);
     font-weight: 400;
     line-height: 1.5;
     font-family: "Poppins", sans-serif;;
@@ -45,7 +80,7 @@ body{
 /* >>>> TYPOGRAPHY <<<< */
 
 h1{
-    color:#0f423d;
+    color:var(--primary-deep-shade);
     font-weight: 600;
     font-size: 4.8rem;
     letter-spacing: -2px;
