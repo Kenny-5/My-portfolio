@@ -7,13 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;&display=swap" rel="stylesheet">
-    <title>Home</title>
-</head>
-<body>
     <title>My goals</title>
 </head>
 <body>
-    <header>
+    <div class="main-page">
+        <header>
         <nav class="nav-bar">
                 <ul class="header-list">
                     <li><a href="home.html">Home</a></li> 
@@ -22,53 +20,58 @@
                     <li><a href="contacts.html">Contacts</a></li>
                 </ul>
             </nav>
-    </header>
-    <main>
-        <section>
-            <h2> Current focus</h2>
-            <p> These are the skills i'm focusig on right now to grow as a frontend developer </p>
-        </section>
+        </header>
+        <main>
+            <section class="about-hero">
+                <h1>Roadmap <span class="status-tag">2026 Strategy</span></h1>
+                <p>These are the milestones I'm hitting to master frontend development.</p>
+            </section>
 
-        <section>
-            <h2>Short Term Goals</h2>
-            <ul>
-                <li>Learn and master Html Basics</li>
-                <li>Build a simple personal dashboard</li>
-                <li>Understand and practice Css Layout</li>
-                <li>Complete 1-2 projects this january</li>
-            </ul>
-        </section>
+            <div class="grid-container">
+                <section class=" card goal-card">
+                    <div class="card-badge short">
+                        Q1 - Focus
+                    </div>
+                    <h3>Short Term Goals</h3>
+                    <ul class="goal-list">
+                        <li><span>✔</span> Master HTML Basics</li>
+                        <li><span>✔</span> Personal Dashboard</li>
+                        <li><span>✔</span> CSS Layout Practice</li>
+                    </ul>
+                </section>
 
-        <section>
-            <h2>Medium Term Goals</h2>
-            <ul>
-                <li>Learn basic JavaScript for interactivity by february</li>
-                <li>Build a multi-page portfolio website</li>
-                <li>Get comfortable with html, css and JavaScript before march</li>
-            </ul>
-        </section>
+                <section class="card goal-card">
+                    <div class="card-badge medium">
+                        Q2 - Expansion
+                    </div>
+                    <h3> Medium Term</h3>
+                    <ul class="goal-list">
+                        <li><span>▹</span> JavaScript Interactivity</li>
+                        <li><span>▹</span> Multi-page Portfolio</li>
+                        <li><span>▹</span> Logic Foundations</li>
+                    </ul>
+                </section>
 
-        <section>
-            <h2>Long Term Goals</h2>
-            <ul>
-                <li>Master frontend development fundamentals by April</li>
-                <li>Learn a framework like React or Vue by April</li>
-                <li>Launch personal project by May</li>
-            </ul>
-        </section>
+                <section class="card goal-card">
+                    <div class="card-badge long">
+                        Q3 & Beyond
+                    </div>
+                    <h3>Long Term Goals</h3>
+                    <ul class="goal-list">
+                        <li><span>▹</span> Frameworks (React/Vue)</li>
+                        <li><span>▹</span> Launch Major Project</li>
+                        <li><span>▹</span> Fundamental Mastery</li>
+                    </ul>
+                </section>
 
-        <section>
-            <h2>Personal Growth</h2>
-            <ul>
-                <li>Improve consistency in learning</li>
-                <li>Build problem-solving skills before August</li>
-                <li>Document progress and reflect on it regularly</li>
-            </ul>
-        </section>
-        
-        <p>Have Questions? <a href="contacts.html">Reach out!</a></p>
+            </div>
+            
+        <div class="bottom-cta">
+            <p>Have Questions? <a href="contacts.html" class="btn btn-outline">Reach out!</a></p>
+        </div>
+        </main>
     
-    </main>
+    
     <footer>
         <blockquote> Consistency beats motivation</blockquote>
     </footer>
