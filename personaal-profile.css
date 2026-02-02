@@ -90,18 +90,7 @@ ul{
     list-style: none;
 }
 
-/* ol{
-    padding-left: 2rem;
-    margin-top: 1.5rem;
-}
-
-ol li {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    color: var(--primary-deep-shade);
-} */
-
-/* Custom link for inside page sections */
+/* link for inside page sections */
 main section a {
     font-size: 1.8rem;
     color: var(--primary-shade);
@@ -398,7 +387,6 @@ label{
     /* color: var(--primary-deep-shade); */
     margin-bottom: 0.8rem;
     letter-spacing: 1px;
-
 }
 
 input[type="text"],
@@ -495,7 +483,6 @@ button[type="submit"]:hover{
     margin-top: 6rem;
 }
 
-
 /* LAYOUT AND FOOTER */
 .main-page{
     max-width: 1100px;
@@ -528,45 +515,3 @@ blockquote{
         font-size: 4.2rem;
     }
 }
-
-
-
-
-
-
-/* IGNORED
-/* HERO SECTIONS 
-
-
-
-.about-hero p{
-    max-width: 800px;
-    font-size: 2.2rem;
-    margin-top: 2rem;
-}
-
-
-Center the bottom button 
-
-
- Responsive Fix 
-
-
-.info-card h3 {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
- .journey-section {
-    background-color: white;
-    padding: 4rem;
-    border-radius: 16px;
-    border-left: 5px solid var(--primary-base); 
-    margin: 4rem 0;
-} */
-
-
-
- 
