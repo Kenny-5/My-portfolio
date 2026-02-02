@@ -207,9 +207,17 @@ main section a:hover {
 }
 
 /* Color Coding the Badges */
-.card-badge.short { background: var(--secondary-tint); color: var(--secondary-shade); }
-.card-badge.medium { background: var(--primary-tint); color: var(--primary-shade); }
-.card-badge.long { background: var(--tertiary-tint); color: var(--tertiary-shade); }
+.card-badge.short { 
+    background: var(--secondary-tint); 
+    color: var(--secondary-shade); 
+}
+
+.card-badge.medium { 
+    background: var(--primary-tint);
+    color: var(--primary-shade); }
+
+.card-badge.long { background: var(--tertiary-tint); 
+    color: var(--tertiary-shade); }
 
 .goal-list {
     margin-top: 2rem;
@@ -262,6 +270,7 @@ div.bottom-cta {
     padding: 1rem 2.5rem;
     font-size: 1.4rem;
 }
+
 
 /* HEADER */
 .header-span{
@@ -366,6 +375,70 @@ div.bottom-cta {
     border-top: 1px solid var(--gray-light);
 }
 
+/* CONTACT FORM */
+form{
+    max-width:600px;
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    /* color: var(--primary-deep-shade); */
+    margin-bottom: 0.8rem;
+    letter-spacing: 1px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 1.2rem 1.6rem;
+    margin-bottom: 2.4rem;
+    border: 1px solid var(--gray-medium);
+    border-radius: 8px;
+    background-color: white;
+    transition: all 0.3 ease;
+    /* font-family: inherit; */
+    font-size: 1.6rem;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border-color: var(--primary-base);
+    box-shadow: 0 0 0 4px var(--primary-tint);
+}
+
+button[type="submit"]{
+    align-self: flex-start;
+    padding: 1.4rem 3.2rem;
+    background-color: var(--primary-deep-shade);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+button[type="submit"]:hover{
+    background-color: var(--primary-shade);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(49, 204, 191, 0.3);
+}
+
+.main-page h1{
+    margin-top: 2rem;
+    max-width: 700px;
+    line-height: 1.2;
+   
+}
+
 /* SIDEBAR INFO CARDS */
 .skill-grid{
     display: flex;
@@ -447,6 +520,8 @@ blockquote{
         font-size: 4.2rem;
     }
 }
+
+
 
 
 
