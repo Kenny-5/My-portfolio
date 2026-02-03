@@ -92,9 +92,9 @@ ul{
 
 /* link for inside page sections */
 main section a {
-    font-size: 1.8rem;
+    font-size: 1.rem;
     color: var(--primary-shade);
-    font-weight: 600;
+    font-weight: 400;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
 }
@@ -106,6 +106,7 @@ main section a:hover {
 main section a.card {
     color: var(--text-base);     
     font-weight: 400;            
+    text-decoration: none;
     border-bottom: none;         
     display: block;              
 }
@@ -144,31 +145,44 @@ main section a.card {
     padding: 3.2rem;
     border: 1px solid var(--gray-medium);
     transition: all 0.3s ease;
+    
 }
 
-a.card {
+/* a.card {
     display: block;           
     text-decoration: none;   
     color: inherit;      
-}
+} */
 
-a.card h3 {
-    color: var(--primary-deep-shade);
-}
+a .card,
+.card ol li,
+.card p {
+    color: var(--text-base) !important;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    /* color: var(--primary-deep-shade); */
 
-.card-link {
-    font-size: inherit;
+    /* color: var(--primary-deep-shade); */
+    /* font-size: 1.6rem; 
+    font-weight: 400;*/
+}
+    
+
+/* .card-link {
+    font-size: inherit; 
     display: block; 
     text-decoration: none; 
     color: inherit; 
     cursor: pointer;
-}
+} */
 
 .project-details{
     display: inline-block;
     margin-top: 2rem;
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--primary-shade);
     transition: all 0.3s ease;
 }
@@ -369,12 +383,6 @@ div.bottom-cta {
     /* text-align: left;  */
     padding-left: 2rem;
     margin-top: 1.5rem;
-}
-
-.card ol li {
-    font-size: 1.6rem;
-    margin-bottom: 1.2rem;
-    color: var(--primary-deep-shade);
 }
 
 /* ABOUT PAGE DASHBOARD */
