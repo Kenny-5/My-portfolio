@@ -103,6 +103,12 @@ main section a:hover {
     border-bottom: 2px solid var(--primary-shade);
 }
 
+main section a.card {
+    color: var(--text-base);     
+    font-weight: 400;            
+    border-bottom: none;         
+    display: block;              
+}
 
 /* >>>> NAVIGATION <<<< */
 
@@ -132,11 +138,44 @@ main section a:hover {
 /* SHARED COMPONENTS-- CARD & BUTTONS */
 .card{
     /* text-align: left; */
+    font-size: 1.6rem;
     border-radius: 16px;
     background-color: white;
     padding: 3.2rem;
     border: 1px solid var(--gray-medium);
     transition: all 0.3s ease;
+}
+
+a.card {
+    display: block;           
+    text-decoration: none;   
+    color: inherit;      
+}
+
+a.card h3 {
+    color: var(--primary-deep-shade);
+}
+
+.card-link {
+    font-size: inherit;
+    display: block; 
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer;
+}
+
+.project-details{
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--primary-shade);
+    transition: all 0.3s ease;
+}
+
+a.card:hover .project-details {
+    color: var(--primary-base);
+    transform: translateX(5px);
 }
 
 .card:hover{
@@ -398,7 +437,7 @@ textarea{
     border: 1px solid var(--gray-medium);
     border-radius: 8px;
     background-color: white;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
     /* font-family: inherit; */
     font-size: 1.6rem;
 }
@@ -419,7 +458,7 @@ button[type="submit"]{
     font-size: 1.6rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 button[type="submit"]:hover{
